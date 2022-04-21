@@ -5,9 +5,10 @@
   :homepage "https://git.mfiano.net/mfiano/seedable-rng"
   :version "0.1.0"
   :encoding :utf-8
-  :depends-on (#:cl-pcg
-               #:ironclad
-               #:mfiano-utils)
+  :depends-on
+  (#:cl-pcg
+   #:ironclad
+   #:mfiano-utils)
   :pathname "src"
   :serial t
   :components
