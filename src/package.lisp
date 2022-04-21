@@ -2,7 +2,7 @@
 
 (defpackage #:seedable-rng
   (:local-nicknames
-   (#:u #:golden-utils))
+   (#:u #:mfiano-utils))
   (:use #:cl)
   (:shadow
    #:float)
@@ -14,6 +14,8 @@
    #:generator
    #:get-seed
    #:int
+   #:int/parity
    #:invalid-range
    #:make-generator
+   #:make-seed
    #:shuffle))
